@@ -12,3 +12,19 @@ console.log(line);
 // Default parameter trying to catch
 const defaultPera = (first, second=10) => first+second;
 console.log(defaultPera(20));
+
+// Check length even then return this elements
+const friends = ['Shamim', 'Roman','Junayed', 'Oashim'];
+const checkEven =(friends)=>{
+    const evenFriends = [];
+    for (const friend of friends) {
+        const fdLen = friend.length;
+        if((fdLen % 2) == 0){
+            evenFriends.push(friend);
+
+        }
+        
+    }
+    console.log(evenFriends);
+}
+checkEven(friends);
