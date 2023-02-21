@@ -35,4 +35,12 @@ const squareCeck = (num, num2)=>{
     const numCheck = Math.pow(2,2)
     console.log(numCheck);
 }
-squareCeck(num,num2)
+squareCeck(num,num2);
+
+//  Print Maximum number in array
+const number = [10,15,145,5,254,5558,565,55655];
+const maxNum = number =>{
+    const numbers = [...number];
+     console.log(Math.max(...numbers));
+}
+maxNum(number);
