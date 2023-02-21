@@ -8,3 +8,7 @@ I love to code.
 I love to eat biryani.
 `;
 console.log(line);
+
+// Default parameter trying to catch
+const defaultPera = (first, second=10) => first+second;
+console.log(defaultPera(20));
