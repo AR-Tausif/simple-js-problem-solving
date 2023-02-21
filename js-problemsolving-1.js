@@ -23,8 +23,16 @@ const checkEven =(friends)=>{
             evenFriends.push(friend);
 
         }
-        
     }
     console.log(evenFriends);
 }
 checkEven(friends);
+
+// practice of square of element with arryas
+const num = [2,2,3];
+const num2 = [2,3,4]
+const squareCeck = (num, num2)=>{
+    const numCheck = Math.pow(2,2)
+    console.log(numCheck);
+}
+squareCeck(num,num2)
