@@ -134,3 +134,44 @@ HOW WILL DISPLAY 3 VALUE IN THIS DATA
     console.log(bangladeshPrit);
     
     
+    /**
+     * 5
+     * HOW WILL DISPLAY
+     * 1. A
+     * 2. D
+     */
+    const studentData = [
+        {
+            class: 10,
+            details: [
+                {
+                    studentId: '1',
+                    gradingDetails: [{ grade: 'A' }]
+                },
+                {
+                    studentId: '2',
+                    gradingDetails: [{ grade: 'B' }]
+                }
+            ]
+        },
+        {
+            class: 11,
+            details: [
+                {
+                    studentId: 3,
+                    gradingDetails: [{ grade: 'B' }]
+                },
+                {
+                    studentId: 4,
+                    gradingDetails: [{ grade: 'D' }]
+                }
+            ]
+        },
+    ]
+    // PRINT A 
+    const studentDataA = studentData[0].details[0].gradingDetails[0].grade;
+    console.log(studentDataA);
+    // PRINT D 
+    const studentDataD = studentData[1].details[1].gradingDetails[0].grade;
+    console.log(studentDataD);
+  
