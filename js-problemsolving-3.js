@@ -96,3 +96,41 @@ const petersburg = students[2222].address.city;
 // console.log(petersburg);
 const herry = students[3333].name;
 // console.log(herry);
+
+
+/**
+ * 4
+HOW WILL DISPLAY 3 VALUE IN THIS DATA 
+    1. Programming er Choddogusti
+    2. VW
+    3. Bangladesh
+ */
+    let instructor = {
+        name: "Jhankar Mahbub",
+        entrepreneur: true,
+        additionalData: {
+            writer: true,
+            favoriteHobbies: ["travelling", "Coding"],
+            books: ["programming er bolod to bos", "programming ercoddogosti"],
+            moreDetails: {
+                favoriteBasketballTeam: "XYZ",
+                isYoungest: true,
+                hometown: {
+                    city: "ABC",
+                    state: "VW",
+                },
+                countriesLivedIn: ["Bangladesh", "New York"]
+            }
+        }
+    }
+    // PRINTING PROGRAMMING ER CHODDOgUSTI
+    const coddoGusti = instructor.additionalData.books;
+    console.log(coddoGusti[1]);
+    // PRING VW
+    const vwPrint = instructor.additionalData.moreDetails.hometown.state;
+    console.log(vwPrint);
+    // PRINT BANGLADESH
+    const bangladeshPrit = instructor.additionalData.moreDetails.countriesLivedIn[0];
+    console.log(bangladeshPrit);
+    
+    
