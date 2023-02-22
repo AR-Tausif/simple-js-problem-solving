@@ -174,4 +174,40 @@ HOW WILL DISPLAY 3 VALUE IN THIS DATA
     // PRINT D 
     const studentDataD = studentData[1].details[1].gradingDetails[0].grade;
     console.log(studentDataD);
-  
+    
+    /** 
+     * 6
+     * How will you display
+    a) habluder adda
+    b) Beginner
+    */
+    
+    let data1 = {
+        data:
+            [
+                {
+                    bookId: 1,
+                    bookDetails: {
+            name: "habluder adda",
+                        category: "XYZ",
+                        price: "20$",
+                    },
+                    bookCategory: "Basic",
+                },
+                {
+                    bookId: 2,
+                    bookDetails: {
+                        name: "gobluder adda",
+                        category: "ABC",
+                        price: "40$",
+                    },
+                    bookCategory: "Beginner",
+                }
+            ]
+    }
+    // PRINT habluder adda
+    const habluderAdda = data1.data[0].bookDetails.name;
+     console.log(habluderAdda);
+    // PRINT Beginner 
+    const beginnerPrint = data1.data[1].bookCategory;
+    console.log(beginnerPrint);
