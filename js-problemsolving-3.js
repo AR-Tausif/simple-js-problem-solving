@@ -34,8 +34,8 @@ const sophiaSecondarySchool = data.Sophia.study[1].secondary;
 /**
  * 2
  * How to get access two object property from this data list
- * 1. abc
- * 2.xyz
+ * 1. get access or print: abc
+ * 2. get access or print: xyz
  */
 let activities = {
     activity1: [
